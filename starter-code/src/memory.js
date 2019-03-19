@@ -30,7 +30,11 @@ let MemoryGame = function (cards) {
   this.pickedCards = [];
   this.pairsClicked = 0;
   this.pairsGuessed = 0;
+  console.log(this.cards);
 };
+
+MemoryGame();
+
 
 MemoryGame.prototype.shuffleCards = function () {
   let randomNumb = 0;
